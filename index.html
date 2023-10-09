@@ -1,6 +1,195 @@
-Hello World.
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portofolio Muhammad Ridho</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- sidebar -->
+    <input type="checkbox" id="check" />
+    <div class="sidebar">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#hobi">Hobi</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
 
-Biodata     : 
-Name        : Muhammad Ridho
-Status      : Mahasiswa
-Univ        : Politeknik Negeri Banjarmasin
+    <!-- bagian header -->
+
+    <header>
+      <div class="container">
+        <h1><a href="">Muhammad Ridho</a></h1>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#hobi">Hobi</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- menu mobile -->
+        <label for="check" class="mobile-menu"
+          ><i class="fas fa-bars"></i
+        ></label>
+      </div>
+    </header>
+
+    <!-- bagian banner -->
+    <section class="banner">
+      <div class="container">
+        <div class="banner-left">
+          <div
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <h2>
+              Hai...<br />
+              Saya Adalah Seorang Mahasiswa Poliban
+            </h2>
+            <p>Selamat datang di website Portofolio saya!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- bagian about -->
+    <section id="about">
+      <div class="container">
+        <h3>About</h3>
+        <p>
+          Saya adalah pencinta teknologi, seni kata, dan eksplorasi. Komputer dan program adalah gairah saya, di mana saya menciptakan dan memecahkan masalah. Novel adalah teman setia, membawa saya ke dunia berbeda, memperkaya pikiran saya. Musik adalah bahasa perasaan saya, mengisi hidup dengan harmoni.
+        </p>
+        <p>
+        	Saya selalu mencari hal baru, menjelajahi dunia, dan bertemu beragam orang. Keberagaman adalah sumber pertumbuhan. Saya siap menjelajahi dunia, mengejar mimpi, dan menciptakan hal-hal menakjubkan. Saya adalah pencari, inovator, dan pecinta kehidupan yang tak pernah berhenti belajar.
+        </p>
+      </div>
+    </section>
+
+    <!-- bagian skills -->
+    <section id="skills">
+      <div class="container">
+        <h3>Skills</h3>
+        <h4>Javascript</h4>
+        <div class="bar">
+          <span class="nilai javascript">68%</span>
+        </div>
+
+        <h4>Html</h4>
+        <div class="bar">
+          <span class="nilai html">55%</span>
+        </div>
+
+        <h4>Css</h4>
+        <div class="bar">
+          <span class="nilai css">35%</span>
+        </div>
+
+        <h4>Python</h4>
+        <div class="bar">
+          <span class="nilai py">55%</span>
+        </div>
+
+        <h4>Golang</h4>
+        <div class="bar">
+          <span class="nilai go">20%</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- bagian hobi -->
+    <section id="hobi">
+      <h3>Hobi</h3>
+
+      <div class="container-hobi">
+        <div class="col-4">
+          <a href="">
+            <div data-aos="fade-up" data-aos-anchor-placement="center-center">
+              <img src="img/safar-safarov-MSN8TFhJ0is-unsplash.jpg" />
+              <span>Ngoding </span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-4">
+          <a href="">
+            <div data-aos="fade-up" data-aos-anchor-placement="center-center">
+              <img src="img/jeshoots-com-eCktzGjC-iU-unsplash.jpg" />
+              <span>Main game</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-4">
+          <a href="">
+            <div data-aos="fade-up" data-aos-anchor-placement="center-center">
+              <img src="img/oscar-keys-ojVMh1QTVGY-unsplash.jpg" />
+              <span>Mendengarkan music & membaca novel </span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- bagian contact -->
+    <section id="contact">
+      <div class="container-contact">
+        <h3>Contact</h3>
+
+        <div class="border"></div>
+        <form name="WPU-Contact-Form">
+          <div>
+            <input type="text" name="nama" required="" placeholder="Nama" />
+          </div>
+
+          <div>
+            <input type="email" name="email" required="" placeholder="Email" />
+          </div>
+
+          <div>
+            <textarea required placeholder="Pesan" name="pesan"></textarea>
+          </div>
+
+          <div>
+            <input type="submit" name="kirim" value="kirim" />
+          </div>
+        </form>
+      </div>
+
+      <div class="container">
+        <div class="col-3">
+          <h4>Alamat</h4>
+          <p>
+            Kalimantan Selatan, Kota Banjarmasin, JL. Sutoyo S, GG II Angsoka
+          </p>
+        </div>
+
+        <div class="col-3">
+          <h4>Email</h4>
+          <p>mhmmdoo@gmail.com</p>
+        </div>
+
+        <div class="col-3">
+          <h4>Telpon</h4>
+          <p>089603217713</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- bagian footer -->
+    <footer>
+      <div class="container">
+        <small>Copyright &copy; 2023 - Muhammad Ridho.</small>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
